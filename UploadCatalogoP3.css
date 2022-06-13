@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FFFF;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 10fr;
+}
+
+header nav{
+    width: 100vw;
+    height: 40px;
+    background: #F4EADC;
+}
+
+header nav #img{
+    height: 39px;
+    width: 30px;
+    margin-left: 10px;
+    color: #A1574C;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+main #add{
+    width: 230px;
+    height: 50px;
+    background: #B17352;
+    border: #B17352;
+    border-radius: 9px;
+    color: #FFFF;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main #add:hover{
+    transition: 0.5s;
+    background: #7b4b31;
+}
+
+main #add #img-add{
+    width: 25px;
+    height: 25px;
+    margin: 9px;
+}
+
+#primary{
+    margin-top: 35px;
+}
+main .plantas{
+    width: 330px;
+    height: 50px;
+    background: #F4EADC;
+    border-radius: 9px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .img{
+    height: 25px;
+    width: 25px;
+    margin: 5px 10px;
+    margin-top: 10px;
+}
+
+main .pen{
+    color: #A1574C;
+}
+main .plant{
+    color: #BD8A57;
+}
