@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #fcfcfc;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows:10fr;
+    overflow-x: hidden;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+main .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+main #user{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+main .forms{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+main .forms label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main .forms input{
+    height: 25px;
+    border-radius: 5em;
+}
+main #checkbox{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+main #terms{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+main #terms p{
+    margin-left: 15px;
+}
+
+main #btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 5em;
+    margin-top: 35px;
+    background: #A1574C;
+    border: #A1574C;
+    color: #FFFF;
+}
