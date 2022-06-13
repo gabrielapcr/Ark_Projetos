@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fcfcfc;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    height: 90px;
+    background: #C4C4C4;
+}
+
+header nav{
+    width: 100vw;
+    height: 40px;
+    background: #F4EADC;
+}
+
+header nav #img{
+    height: 39px;
+    width: 30px;
+    margin-left: 10px;
+    color: rgb(96, 1, 1);
+}
+
+main{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.foto{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+main h3{
+    margin: 0;
+    margin-top: 20px;
+    color: #A1574C;
+}
+
+main p2{
+    margin: 0;
+    color: #A1574C;
+}
+
+.level{
+    display: flex;
+    align-items: center;
+}
+
+.level h3{
+    margin-right: 5px;
+    color: #A1574C;
+}
+
+.level .progress{
+    margin-top: 20px;
+    width: 150px;
+    height: 20px;
+    border: 1px solid rgb(174, 105, 20);
+    margin-left: 5px;
+    border-radius: 0.25em;
+    position: relative;
+    overflow: hidden;
+}
+
+.level .progress .bar{
+    position: absolute;
+    left: -40%;
+    width: 150px;
+    height: 20px;
+    border-radius: 0.25em;
+    background: rgb(174, 105, 20);
+}
+main .Conquistas {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+.conquistas h4{
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 80px;
+    top: 491px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #A1574C;
+
+}
+#conquistas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+
+    color: #A1574C;
+}
+
+
+main .plantas{
+    width: 330px;
+    height: 50px;
+    background: #F4EADC;
+    border-radius: 9px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .plantas-1{
+    width: 330px;
+    height: 50px;
+    background: #E5E5E5;
+    border-radius: 9px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .lock{
+    width: 330px;
+    height: 50px;
+    background: #E5E5E5;
+    border-radius: 9px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .h4{
+    position: absolute;
+    width: 89px;
+    height: 22px;
+    left: 80px;
+    top: 491px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #A1574C;
+}
+.plantas h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+color: rgba(20, 18, 28, 0.9);
+    position: static;
+    width: 158px;
+    height: 16px;
+    left: 144px;
+}
+main .img{
+    height: 25px;
+    width: 25px;
+    margin: 5px 10px;
+    margin-top: 10px;
+}
+
+main .pen{
+    color: #A1574C;
+}
+main .plant{
+    color: #BD8A57;
+}
+main .seta{
+    color: #A1574C;
+}
