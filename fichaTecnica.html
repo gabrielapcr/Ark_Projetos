@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head class="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Aurum</title>
+    <link rel="stylesheet" type="text/css" href="fichaTecnica.css">
+</head>
+
+<body>
+    <header>
+        <ion-icon id="img" name="menu-outline"></ion-icon>
+        <nav id="nav">
+            <h3 id="tittle">Menu</h3>
+            <ul>
+                <li>Catálogo <ion-icon id="img-arrow" name="chevron-forward-outline"></ion-icon></li>
+            </ul>
+            <h3 id="sair">sair</h3>
+        </nav>
+    </header>
+    <main>
+        <div class="back">
+            <button><ion-icon id="arrow-back" name="arrow-back"></ion-icon></button>
+            <h4>Ficha Tecnica</h4>
+        </div>
+        <ion-icon id="add-img" name="add-circle-outline"></ion-icon>
+        <div class="forms">
+            <label for="User">Nome Popular:</label>
+            <input type="text" name="Name" />
+            <label for="User">Nome Cientifico:</label>
+            <input type="text" name="Name" />
+            <label for="User">Família:</label>
+            <input type="text" name="Name" />
+            <label for="User">Categoria:</label>
+            <input type="text" name="Name" />
+            <label for="User">Origem:</label>
+            <input type="text" name="Name" />
+            <label id="desc" for="User">Descrição:</label>
+            <textarea name="text" rows="8" cols="10" wrap="soft"> </textarea> 
+        </div>
+        <button id="btn">ADICIONAR</button>
+    </main>
+
+    <script src="fichaTecnica.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

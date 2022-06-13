@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+    font-family: 'Roboto', normal;
+    display: grid;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    margin-top:30px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: -200px;
+}
+.logo_ipa img{
+    width:200px;
+    height: 206px;
+}
+.greet h1{
+    margin-top: 20px;
+    font-size: 32px;
+}
+.login_txt{
+    display: flex;
+    justify-content: left;
+    width: 290px ;
+}
+.login_txt p{
+    margin-top: 15px;
+}
+input{
+    text-align: center;
+}
+.logo_email{
+    position: absolute;
+}
+.input_email input{
+    border-radius: 40px;
+    width: 296px;
+    height: 36px;
+    outline-color: rgb(138, 138, 131);
+}
+.input_senha{
+    margin-top: 10px;
+}
+.input_senha input{
+    border-radius: 40px;
+    width: 296px;
+    height: 36px;
+    outline-color: rgb(138, 138, 131);
+}
+.esquece_senha{
+    margin-top:0px;
+    width: 290px ;
+}
+.esquece_senha a{
+    color: black;
+    font-size: 14px;
+}
+.botao_entrar{
+    margin-top: -15px;
+}
+.botao_entrar button{
+    background-color: #A1574C;
+    font-size: 17px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    width: 167px;
+    height: 39px;
+}
+.não_tem_conta p{
+    font-size: 14px;
+}
+.botao_cadastro button{
+    background-color: #A1574C;
+    font-size: 17px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 208px;
+    height: 39px;
+}
+button:hover{
+    transition: 0.3s;
+    background-color: #813226;
+    cursor: pointer;
+}
+button:active{
+    color: rgb(139, 136, 155);
+}
+a:hover{
+    color: rgb(10, 10, 122);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(139, 136, 155);
+    text-decoration: none;
+  }

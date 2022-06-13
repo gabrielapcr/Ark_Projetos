@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFF;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 10fr;
+    /* overflow-y: hidden; */
+}
+
+/* ============== Top Bar =============== */
+header{
+    width: 100vw;
+    height: 40px;
+    background: #F4EADC;
+}
+header a{
+    height: 0px;
+}
+header #img{
+    height: 39px;
+    width: 30px;
+    margin-left: 10px;
+    color: #A1574C;
+}
+
+/* ==================Menu Bar ================*/
+header #nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    height: calc(100vh - 40px);
+    width: 55%;
+    background: white;
+    transform: translateX(-100%);
+    transition: transform 350ms ease-out;
+    z-index: 2;
+}
+header #nav.active{
+    transform: translate(0);
+    box-shadow: 0 400px 0 400px rgba(0, 0, 0, 0.379);
+}
+#nav h3, li{
+    color: #A1574C;
+    margin-bottom: 30px;
+}
+#nav #tittle{
+    color: #BD8A57;
+    margin-top: 30px;
+}
+nav #sair{
+    background: #F4EADC;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+nav ul{
+    margin-right: 100px;
+    list-style: none;
+}
+nav ul li #img-arrow{
+    margin-top: 0px;
+}
+
+
+/* ================= Tela Principal ================== */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 200px;
+}
+main .back{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+main .back h4{
+    color: #A1574C;
+}
+main .back button{
+    width: 40px;
+    height: 20px;
+    background: #A1574C;
+    border: #A1574C;
+    border-radius: 1em;
+    margin-right: 10px;
+}
+main .back button #arrow-back{
+    color: #FFFF;
+}
+
+main #add-img{
+    height: 130px;
+    width: 130px;
+    color: #D3AF60;
+    margin-top: 30px;
+}
+
+main .forms{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+main .forms label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main .forms input{
+    height: 25px;
+}
+
+main #btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 5em;
+    margin-top: 35px;
+    background: #A1574C;
+    border: #A1574C;
+    color: #FFFF;
+}
+
+main .forms #desc{
+    margin-top: 50px;
+}
+
+main .forms #desc-txt{
+    height: 99px;
+}
